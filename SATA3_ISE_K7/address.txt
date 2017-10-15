@@ -1,0 +1,47 @@
+Test logic Registers for SATA new wrapper 
+------------------------------------------
+total iteration   0x8010 0000   0x2710          write only 
+
+cmd_reg:          0x8010 0004   1   		write only 
+
+staus_reg:        0x8010 0008      		read only 
+
+
+staus_reg:
+-------------
+bit 0 - cmd_enable
+bit 1 - cmp_error
+
+
+iteration_count        0x8010 0014
+
+cmd_complete           0x8010 0018     
+ 
+
+
+          32'h 80000000:  sata_ctrl_reset_reg  //reset
+
+          32'h 80100000:  total_iteration //10000 max value
+
+          32'h 80100004:  cmd_reg         
+
+          32'h 8010001C:  init_data     // offset value 
+
+          32'h 80100008:  status_reg;
+          
+          32'h 8010000C:  write_throughput_count[31:0];
+    
+          32'h 80100010:  write_throughput_count[63:32];
+       
+          32'h 80100014:  iteration_count
+
+          32'h 80100018:  cmd_complete
+
+          32'h 80100020:   read_throughput_count[31:0];
+
+          32'h 80100024:   read_throughput_count[63:32];
+		  		 
+          32'h 80100028: expected_data_reg;
+        
+          32'h 8010002C: read_data_reg;
+         

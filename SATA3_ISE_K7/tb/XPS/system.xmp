@@ -1,0 +1,30 @@
+#Please do not modify this file by hand
+XmpVersion: 14.4
+VerMgmt: 14.4
+IntStyle: ise
+Flow: ise
+MHS File: system.mhs
+Architecture: kintex7
+Device: xc7k325t
+Package: ffg900
+SpeedGrade: -2
+UserCmd1: 
+UserCmd1Type: 0
+UserCmd2: 
+UserCmd2Type: 0
+GenSimTB: 0
+SdkExportBmmBit: 1
+SdkExportDir: SDK/SDK_Export
+InsertNoPads: 1
+WarnForEAArch: 1
+HdlLang: verilog
+SimModel: BEHAVIORAL
+ExternalMemSim: 0
+UcfFile: data/system.ucf
+EnableParTimingError: 1
+ShowLicenseDialog: 1
+BInfo: 
+LockAddr: sata_test_logic_0,C_BASEADDR
+Processor: microblaze_0
+ElfImp: SDK/sata_test/Debug/sata_test.elf
+ElfSim: SDK/sata_test/Debug/sata_test.elf

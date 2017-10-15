@@ -1,0 +1,42 @@
+// File: F:\sata_test_logic_ise\XPS\system_stub.bmm
+
+ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100
+	ADDRESS_SPACE microblaze_0_bram_block_combined COMBINED [0x00000000:0x0001ffff]
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_0 [31:31] INPUT = microblaze_0_bram_block_combined_0.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_1 [30:30] INPUT = microblaze_0_bram_block_combined_1.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_2 [29:29] INPUT = microblaze_0_bram_block_combined_2.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_3 [28:28] INPUT = microblaze_0_bram_block_combined_3.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_4 [27:27] INPUT = microblaze_0_bram_block_combined_4.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_5 [26:26] INPUT = microblaze_0_bram_block_combined_5.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_6 [25:25] INPUT = microblaze_0_bram_block_combined_6.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_7 [24:24] INPUT = microblaze_0_bram_block_combined_7.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_8 [23:23] INPUT = microblaze_0_bram_block_combined_8.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_9 [22:22] INPUT = microblaze_0_bram_block_combined_9.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_10 [21:21] INPUT = microblaze_0_bram_block_combined_10.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_11 [20:20] INPUT = microblaze_0_bram_block_combined_11.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_12 [19:19] INPUT = microblaze_0_bram_block_combined_12.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_13 [18:18] INPUT = microblaze_0_bram_block_combined_13.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_14 [17:17] INPUT = microblaze_0_bram_block_combined_14.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_15 [16:16] INPUT = microblaze_0_bram_block_combined_15.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_16 [15:15] INPUT = microblaze_0_bram_block_combined_16.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_17 [14:14] INPUT = microblaze_0_bram_block_combined_17.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_18 [13:13] INPUT = microblaze_0_bram_block_combined_18.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_19 [12:12] INPUT = microblaze_0_bram_block_combined_19.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_20 [11:11] INPUT = microblaze_0_bram_block_combined_20.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_21 [10:10] INPUT = microblaze_0_bram_block_combined_21.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_22 [9:9] INPUT = microblaze_0_bram_block_combined_22.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_23 [8:8] INPUT = microblaze_0_bram_block_combined_23.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_24 [7:7] INPUT = microblaze_0_bram_block_combined_24.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_25 [6:6] INPUT = microblaze_0_bram_block_combined_25.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_26 [5:5] INPUT = microblaze_0_bram_block_combined_26.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_27 [4:4] INPUT = microblaze_0_bram_block_combined_27.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_28 [3:3] INPUT = microblaze_0_bram_block_combined_28.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_29 [2:2] INPUT = microblaze_0_bram_block_combined_29.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_30 [1:1] INPUT = microblaze_0_bram_block_combined_30.mem ;
+			system_i/microblaze_0_bram_block/microblaze_0_bram_block/ramb36e1_31 [0:0] INPUT = microblaze_0_bram_block_combined_31.mem ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

@@ -1,0 +1,16 @@
+#
+# pin constraints
+#
+NET CLK_N LOC = "AD11"  |  IOSTANDARD = "DIFF_SSTL15";
+NET CLK_P LOC = "AD12"  |  IOSTANDARD = "DIFF_SSTL15";
+NET RESET LOC = "AB7"  |  IOSTANDARD = "LVCMOS15";
+NET RS232_Uart_1_sin LOC = "M19"  |  IOSTANDARD = "LVCMOS25";
+NET RS232_Uart_1_sout LOC = "K24"  |  IOSTANDARD = "LVCMOS25";
+NET sm_fan_pwm_net_vcc LOC = "L26"  |  IOSTANDARD = "LVCMOS25";
+#
+# additional constraints
+#
+
+NET "CLK" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 200000 kHz;
+

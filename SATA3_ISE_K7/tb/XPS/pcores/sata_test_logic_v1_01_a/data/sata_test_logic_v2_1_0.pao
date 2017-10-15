@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          F:\SATA_ISE_Project_K7\XPS\pcores/sata_test_logic_v1_01_a/data/sata_test_logic_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Dec 31 15:29:29 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a all vhdl
+lib axi_lite_ipif_v1_01_a all vhdl
+lib sata_test_logic_v1_01_a sata_test_logic vhdl
